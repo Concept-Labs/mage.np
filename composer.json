@@ -1,0 +1,21 @@
+{
+    "name": "concept-labs/mage.module.np",
+    "description": "Mtr M2 Nova Poshta",
+    "require": {
+        "magento/module-ui" : "*",
+        "magento/framework" : "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [ 
+            "src/registration.php" 
+        ],
+        "psr-4": {
+            "Cl\\Np\\": "src/"
+        }
+    }
+}
